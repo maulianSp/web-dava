@@ -29,10 +29,10 @@
         // echo "<h1>hello world</h1>";
         
         // VARIABEL
-        $nama = "Maulian Saputra";
-        $nilai = 70;
+        // $nama = "Maulian Saputra";
+        // $nilai = 70;
 
-        echo "Nama saya adalah $nama dan nilai saya adalah $nilai";
+        // echo "Nama saya adalah $nama dan nilai saya adalah $nilai";
 
         // aturan menulis variabel
         // 1. variabel diawali dengan simbol ($)
@@ -62,17 +62,54 @@
         // 1. struktur kontrol (IF)
 
         // $Nama != $nama (case sensitive)
-        $nama2 = "Budi";
-        $umur = 20;
+        // $nama2 = "Budi";
+        // $umur = 10;
 
         // if(kondisi){
         //     statement;
         // }
+        
+        
+        // if($umur >= 17){
+        //     echo "Hai $nama2, Kamu sudah dewasa";
+        // }else{
+        //     echo "maaf $nama2, kamu belum dewasa";
+        // }
 
-        if($umur >= 17){
-            echo "Hai Budi, Kamu sudah dewasa";
-        }
+        // 0-5 balita
+        // 6-12 anak-anak
+        // 13-17 remaja
+        // 18 > dewasa
 
+        // if($umur <= 5){
+        //     echo "hai $nama2, kamu masih balita";
+        // }elseif($umur <= 12){
+        //     echo "hai $nama2, kamu masih anak-anak";
+        // }
+
+        // if(kondisi 1){
+        //     statement;
+        // }elsif(kondisi 2){
+        //     statement
+        // }elseif(kondisi 3){
+        //     statement;
+        // }else{
+        //     statement
+        // }
+        
+        $nilai1 = 70;
+        $nilai2 = 85;
+        $nilai3 = 30;
+
+        $hasil_jumlah = $nilai1 + $nilai2 + $nilai3;
+        $hasil_rata2 = $hasil_jumlah / 3;
+
+        echo "Nilai 1 : $nilai1 <br>";
+        echo "Nilai 2 : $nilai2 <br>";
+        echo "Nilai 3 : $nilai3 <br>";
+        echo "<hr>";
+        echo "Total Nilai : $hasil_jumlah <br>";
+        echo "Rata-rata Nilai : $hasil_rata2";
 
     ?>
 </body>
